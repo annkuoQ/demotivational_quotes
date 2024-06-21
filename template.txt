@@ -61,7 +61,7 @@
                 "action": {
                   "type": "uri",
                   "label": "action",
-                  "uri": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%E5%BA%B7%E5%AF%A7%E8%B7%AF%E4%B8%89%E6%AE%B575%E5%B7%B750%E8%99%9F"
+                  "uri": "https://www.google.com/maps/search/?api=1&query=${vcard.address}"
                 }
               }
             ]
