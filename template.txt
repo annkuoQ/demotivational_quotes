@@ -1,0 +1,173 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://github.com/ptstaiwan/upptime/assets/43839957/4238fa07-7626-45b9-b0b4-48ab8ae5d4e7",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "fit",
+    "action": {
+      "type": "uri",
+      "uri": "https://line.me/"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "${vcard.name}",
+        "size": "xl",
+        "weight": "bold"
+      },
+      {
+        "type": "text",
+        "text": "${vcard.company}",
+        "size": "md",
+        "weight": "bold"
+      },
+      {
+        "type": "text",
+        "text": "${vcard.department}",
+        "size": "md",
+        "weight": "bold"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "地址",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "${vcard.address}",
+                "wrap": true,
+                "color": "#42659a",
+                "size": "sm",
+                "flex": 5,
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%E5%BA%B7%E5%AF%A7%E8%B7%AF%E4%B8%89%E6%AE%B575%E5%B7%B750%E8%99%9F"
+                }
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "電話",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "${vcard.tel}",
+                "wrap": true,
+                "color": "#42659a",
+                "size": "sm",
+                "flex": 5,
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "tel:${vcard.tel}"
+                }
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "手機",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "${vcard.mobile}",
+                "wrap": true,
+                "color": "#42659a",
+                "size": "sm",
+                "flex": 5,
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "tel:${vcard.mobile}"
+                }
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "電郵",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "${vcard.email}",
+                "wrap": true,
+                "color": "#42659a",
+                "size": "sm",
+                "flex": 5,
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "mailto:${vcard.email}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "action": {
+          "type": "uri",
+          "label": "前往 公視+",
+          "uri": "https://www.ptsplus.tv/zh"
+        },
+        "color": "#004CD3",
+        "margin": "none"
+      }
+    ],
+    "flex": 0
+  }
+}
